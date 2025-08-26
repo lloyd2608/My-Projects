@@ -1,0 +1,41 @@
+[
+    {
+        "timestamp": "2025-08-25T08:01:12Z",
+        "event_type": "authentication_failure",
+        "username": "john.d",
+        "source_ip": "192.168.1.44",
+        "destination_host": "websrv-02",
+        "protocol": "ssh",
+        "action": "denied",
+        "reason": "invalid_password"
+    },
+    {
+        "timestamp": "2025-08-25T08:01:30Z",
+        "event_type": "authentication_failure",
+        "username": "john.d",
+        "source_ip": "192.168.1.44",
+        "destination_host": "websrv-02",
+        "protocol": "ssh",
+        "action": "denied",
+        "reason": "invalid_password"
+    },
+    {
+        "timestamp": "2025-08-25T08:02:01Z",
+        "event_type": "authentication_failure",
+        "username": "john.d",
+        "source_ip": "45.77.22.10",
+        "destination_host": "websrv-02",
+        "protocol": "ssh",
+        "action": "denied",
+        "reason": "invalid_password"
+    },
+    {
+        "timestamp": "2025-08-25T08:02:15Z",
+        "event_type": "authentication_success",
+        "username": "john.d",
+        "source_ip": "203.0.113.55",
+        "destination_host": "websrv-02",
+        "protocol": "ssh",
+        "action": "allowed"
+    }
+]
